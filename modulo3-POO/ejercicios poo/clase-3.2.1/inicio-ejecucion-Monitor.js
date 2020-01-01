@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var Monitor_1 = require("./Monitor");
+var monitor = new Monitor_1["default"]();
+monitor.encenderApagarMonitor();
+console.log(monitor);
+monitor.aumentarBrillo();
+console.log(monitor);
+monitor.aumentarContraste();
+console.log(monitor);

@@ -1,0 +1,9 @@
+deoendencia = paquete/libreria/modulos...conjunto de codigo para usar
+npm maneja las dependencias. gestor de paquetes
+npm install...como buscar librerias
+
+npm init para crear archivo
+ libreria es un codigo ya hecho que podemos usar en nuestro codigo...ahorro de tiempo
+
+
+let argumentos = process.argv.slice(2) (desde donde comienza a tomar los argumentos)

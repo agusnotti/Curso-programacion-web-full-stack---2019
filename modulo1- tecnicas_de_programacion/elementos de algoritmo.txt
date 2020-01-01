@@ -1,0 +1,50 @@
+elementos del algoritmo
+
+1. SUMAR 2 NUMEROS
+
+dato entrada 1
+dato entrada 2
+
+proceso: sumar dato entrada 1 + dato entrada 2
+
+salida: resultado de la suma
+
+2. PREPARAR TARTA DE FRUTILLAS
+
+dato entrada harina
+dato entrada azucar
+dato entrada huevos
+dato entrada leche
+dato entrada frutilla
+
+proceso 1: precalentar horno
+proceso 2: mezclar los ingredientes en un bowl 
+proceso 3:llevar al horno
+proceso 4: dejar que enfrie
+
+salida: torta lista para comer
+
+3. TOMAR PRESION SANGUINEA
+dato entrada persona
+dato entrada tensiometro
+dato entrada estetoscopio
+
+proceso 1: coloca tensiometro
+proceso 2: colocar estetoscopio
+proceso 3: tomar presion sanguinea
+
+salida: resultado de presion sanguinea de la persona
+
+4. LLENAR UNA CAJITA DE HUEVOS CON 5 HUEVOS QUE ESTAN DENTRO DE UN BOLSA
+entrada: 
+dato entrada huevos
+dato entrada caja de huevos
+dato entrada bolsa
+
+proceso 1: agarro el huevo 1 de la bolsa y lo coloco en la caja
+proceso 2: agarro el huevo 2 de la bolsa y lo coloco en la caja
+proceso 3: agarro el huevo 3 de la bolsa y lo coloco en la caja
+proceso 4: agarro el huevo 4 de la bolsa y lo coloco en la caja
+proceso 5: agarro el huevo 5 de la bolsa y lo coloco en la caja
+
+salida: caja de huevos completa con 5 huevos

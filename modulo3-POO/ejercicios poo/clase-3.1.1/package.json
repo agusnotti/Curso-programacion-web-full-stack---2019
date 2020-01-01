@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-agus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prueba-colores": "node colores.js",
+    "prueba-colores2": "node colores.js blue",
+    "prueba-calendario": "node calendario.js",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/colors": "^3.1.0",
+    "js-calendar": "^1.2.3",
+    "readline-sync": "^1.4.9"
+  }
+}

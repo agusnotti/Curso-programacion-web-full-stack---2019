@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(224, 224, 11);
+}
+
+div{
+    display: inline-block;
+    text-align: center;
+}
+.imagen {
+    width: 62%;
+    height: 260px;
+    
+}
+img{
+    width: 300px;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: left;
+    text-decoration: underline;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: justify;
+}
+
+.parrafo{
+    width: 60%;
+}
+
+.img-parrafo{
+    margin-left: 5%;
+    width: 20%;
+}
+.img-parrafo-izq{
+    margin-right: 5%;
+    width: 20%;
+}
+.encabezado{
+    display: block;
+    text-align: center;
+}
+.img-encabezado{
+    width: 100%;
+}
+
+div>img{
+    border:3px solid black;
+}
+h2+p{
+    background-color: chocolate;
+} /*toma solo el primer hermano*/
+/*h2~p{
+    background-color: crimson;
+} toma todos los hermanos*/
+

@@ -1,0 +1,14 @@
+"use strict";
+exports.__esModule = true;
+var AutoDeportivo_1 = require("./AutoDeportivo");
+var RegistroAutomotor_1 = require("./RegistroAutomotor");
+var registroAutomotor = new RegistroAutomotor_1["default"]();
+registroAutomotor.completarRegistroDesdeArchivo();
+//let autoCiudad:Vehiculo = new AutoCiudad('ford','ka', 2010, 'huy647');
+var autoDeportivo = new AutoDeportivo_1["default"]('lamborghini', 'Diablo', 2006, 'agu666');
+//let camioneta:Vehiculo = new Camioneta('Toyota', 'Hilux', 2009, 'adg546');
+//registroAutomotor.agregarVehiculo(autoCiudad);
+registroAutomotor.agregarVehiculo(autoDeportivo);
+//registroAutomotor.agregarVehiculo(camioneta);
+registroAutomotor.guardarArchivo();
+autoDeportivo.getPatente();

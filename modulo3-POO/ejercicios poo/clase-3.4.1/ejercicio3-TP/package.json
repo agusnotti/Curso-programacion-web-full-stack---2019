@@ -1,0 +1,19 @@
+{
+  "name": "trabajo-practico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ejecutar": "tsc init.ts && node init.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agustina Notti",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "fs-extra": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.6.9"
+  }
+}

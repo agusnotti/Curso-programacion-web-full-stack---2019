@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Carrito JSON</title>
+   <link rel="stylesheet" href="/estilo.css">
+</head>
+<body>
+   <h1>Carrito</h1>
+   <p>Ejemplo de arreglo de objetos en JS.</p>
+   <div>
+      <div>
+        <input type="text" class="txt" name="" value="" id="producto">
+        <input type="text" class="num" name="" value="" id="precio">
+        <input type="text" class="txt" name="" value="" id="descripcion">
+        <input type="text" class="num" name="" value="" id="iva">
+        <button type="button" id="btnAgregar">A</button>
+        <button type="button" id="btnEliminar">B</button>
+        <button type="button" id="btnModificar">M</button>
+        <input type="text" class="num" name="" value="" id="posicion">
+        <button type="button" id=btnConsultar>C</button>
+      </div>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <td class="sel"><input type="checkbox" class="" name="" value="" id="chkSelTodos"></td>
+              <td class="txt">Producto</td>
+              <td class="num">Precio</td>
+              <td class="txt">Descripcion</td>
+              <td class="num">IVA</td>          
+            </tr>
+          </thead>
+          <tbody id="tblCompras">
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <button type="button" id=btnTotal>Sumar</button>
+        <div id="total"></div>
+      </div>
+   </div>
+   <script src="./carrito.js"></script>
+</body>
+</html>

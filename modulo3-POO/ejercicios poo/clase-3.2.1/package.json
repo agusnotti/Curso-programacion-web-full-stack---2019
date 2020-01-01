@@ -1,0 +1,24 @@
+{
+  "name": "objetos",
+  "version": "1.0.0",
+  "description": "repositorio del curso de programacion full stack",
+  "main": "index.js",
+  "scripts": {
+    "ejecutar1": "tsc inicio-ejecucion-Monitor.ts && node inicio-ejecucion-Monitor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agusnotti/curso-programacion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agusnotti/curso-programacion/issues"
+  },
+  "homepage": "https://github.com/agusnotti/curso-programacion#readme",
+  "dependencies": {
+    "@types/node": "^12.6.9"
+  },
+  "devDependencies": {}
+}

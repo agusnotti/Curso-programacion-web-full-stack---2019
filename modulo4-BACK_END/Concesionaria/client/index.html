@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Concesionaria</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h1>Concesionaria</h1>
+    Patente <input type="text" name="" value="" id="patente">
+    Modelo <input type="text" name="" value="" id="modelo">
+    Anio <input type="text" name="" value="" id="anio"> <br>
+    Marca <input type="text" name="" value="" id="marca">
+    Precio <input type="text" name="" value="" id="precio">
+    Capacidad <input type="text" name="" value="" id="capacidad"><br>
+    <input type="radio" name="tipoVehiculo" value="Auto"> Auto<br>
+    <input type="radio" name="tipoVehiculo" value="Camioneta"> Camioneta<br>
+
+
+    <input type="hidden" name="" value="" id="pos-elem">
+    <button type="button" id="btnAgregar">Agregar</button>
+    <button id="btnEnvioEditar" class="oculto">Editar</button> <br>
+    <table>
+        <thead>
+            <tr>
+                <th>Tipo Vehiculo</th>
+                <th>Patente</th>
+                <th>Modelo</th>
+                <th>Año</th>
+                <th>Marca</th>
+                <th>Precio</th>
+                <th>Capacidad</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="tblVehiculos">
+        </tbody>
+    </table>
+    <script src="js/concesionaria.js"></script>
+</body>
+</html>

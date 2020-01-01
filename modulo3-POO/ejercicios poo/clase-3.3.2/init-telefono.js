@@ -1,0 +1,13 @@
+"use strict";
+exports.__esModule = true;
+var telefono_1 = require("./telefono");
+var telefonoConCamara_1 = require("./telefonoConCamara");
+var miTelefono = new telefono_1["default"](false, 50, false);
+var miTelefonoConCamara = new telefonoConCamara_1["default"](false, 50, false);
+var mensaje = "hola";
+var mensaje2 = "agus";
+var numero = 12345;
+var numero2 = 2342424;
+miTelefono.mandarMensaje(mensaje, numero);
+miTelefonoConCamara.mandarMensaje(mensaje2, numero2);
+miTelefonoConCamara.sacarFoto();

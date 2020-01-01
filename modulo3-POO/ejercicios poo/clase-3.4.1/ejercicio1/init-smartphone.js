@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var Smartphone_1 = require("./Smartphone");
+var miSmartphone = new Smartphone_1["default"]();
+var numero = '+542494598587';
+miSmartphone.prender();
+console.log(miSmartphone);
+miSmartphone.llamar(numero);
+miSmartphone.apagar();
+console.log(miSmartphone);

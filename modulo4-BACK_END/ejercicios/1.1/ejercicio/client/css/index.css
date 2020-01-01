@@ -1,0 +1,45 @@
+nav {
+    background-color: aqua;
+}
+.img-logo{
+    width: 100px;
+}
+
+.btn-light:hover{
+    background-color:rgb(9, 155, 155);
+    border-bottom: 2px solid rgb(9, 155, 155);
+}
+
+.titulo-header{
+    font-family: serif;
+    font-weight: bolder;
+    color: white !important;
+    font-size: 40px;
+}
+
+.item-nav{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white !important;
+    font-size: 20px;
+}
+.item-nav:hover{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: white !important;
+    font-size: 20px;
+}
+
+.carrusel-caja{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.carrusel-caja>img{
+    height: 600px;
+}
+.productos-menu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center
+}

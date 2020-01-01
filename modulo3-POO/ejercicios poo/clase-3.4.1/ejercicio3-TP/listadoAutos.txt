@@ -1,0 +1,6 @@
+AutoCiudad,ford,focus,2005,abc123
+AutoDeportivo,Audi,R8,2006,ghu159
+Camioneta,Toyota,Hilux,2009,adg546
+AutoCiudad,ford,ka,2010,huy647
+AutoDeportivo,lamborghini,Diablo,2006,agu666
+AutoDeportivo,lamborghini,Diablo,2006,agu666

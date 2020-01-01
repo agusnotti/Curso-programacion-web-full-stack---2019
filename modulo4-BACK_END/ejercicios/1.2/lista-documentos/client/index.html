@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>LISTA DE DOCUMENTOS</h1>
+    <form>
+        <label for="titulo">Titulo del Documento</label>
+        <input type="text" name="titulo" value="" id="titulo"><br>
+
+        <label for="autor">Autor</label>
+        <input type="text" name="autor" value="" id="autor"><br>
+
+        <label for="tema">Tema</label>
+        <input type="text" name="tema" value="" id="tema"><br>
+
+        <label for="fechaPublicacion">Fecha de publicacion</label>
+        <input type="date" name="fechaPublicacion" id="fechaPublicacion"><br>
+
+        <button type="button" id="btnAgregar">Agregar</button>
+    </form>
+    <table>
+        <thead>
+            <td>Titulo</td>
+            <td>Autor</td>
+            <td>Tema</td>
+            <td>fecha de publicacion</td>
+        </thead>
+        <tbody id="tblListaDoc"></tbody>
+        
+    </table>
+
+    <p>El autor con mayor cantidad de documentos es: <span id="nombreAutor"></span></p>
+       
+    
+    <script src="js/listaDocumentos.js"></script>
+</body>
+</html>

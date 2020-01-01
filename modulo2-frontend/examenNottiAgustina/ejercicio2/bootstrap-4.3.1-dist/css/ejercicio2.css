@@ -1,0 +1,12 @@
+.carrusel-container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+img{
+    width: 400px;
+}
+.cajas-pc>div{
+    border: 2px solid black;
+}
