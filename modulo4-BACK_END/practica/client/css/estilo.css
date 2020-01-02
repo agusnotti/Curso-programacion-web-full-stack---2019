@@ -1,0 +1,15 @@
+h1{
+    color: blueviolet;
+}
+.border{
+    border: 2px solid black;
+}
+td{
+    border: 2px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+div{
+    padding: 2px;
+}

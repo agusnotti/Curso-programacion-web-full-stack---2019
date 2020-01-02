@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h1>Carrito</h1>
+    <p>Ejemplo de arreglo de objetos en JS.</p>
+    <div class="border">
+
+        <div>
+            <label for="producto">producto</label>
+            <input type="text" name="" value="" id="producto">
+            <label for="precio">precio</label>
+            <input type="text" name="" value="" id="precio">
+            <label for="decripcion">descripcion</label>
+            <input type="text" name="" value="" id="descripcion">
+            <button type="button" id="btnAgregar">Agregar</button>
+        </div>
+        <div>
+            <table>
+                <thead>
+                    <td>Producto</td>
+                    <td>Precio</td>
+                    <td>descripcion</td>
+                </thead>
+                <tbody id="tblCompras"></tbody>
+            </table>
+        </div>
+        <div>
+            <button type="button" id=btnTotal>Sumar</button>
+            <div id="total"></div>
+        </div>
+    </div>
+    <script src="js/carrito.js"></script>
+</body>
+</html>
